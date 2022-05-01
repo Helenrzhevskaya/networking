@@ -4,5 +4,5 @@ import java.io.IOException;
 
 
 public interface WeatherModel {
-    void getWeather(String selectedCity, Period period) throws IOException;   //период создали как enum (перечисление)
+    void getWeather(String selectedCity, Period period) throws IOException;   //период создали как enum (перечисление). для дз7..
 }
