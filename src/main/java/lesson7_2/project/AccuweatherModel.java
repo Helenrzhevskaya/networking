@@ -1,5 +1,5 @@
 package lesson7_2.project;
-
+// в качестве домашнего задания 6
 import com.fasterxml.jackson.databind.ObjectMapper;
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
