@@ -1,5 +1,8 @@
 package lesson7_2.project;
-// в качестве домашнего задания 6
+/**
+ * homework6
+ */
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
@@ -7,8 +10,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 import java.io.IOException;
-//дз 6.
-import static lesson7_2.project.Period.NOW;
+
 
 public class AccuweatherModel implements WeatherModel{
  //http://dataservice.accuweather.com/forecasts/v1/daily/1day/
