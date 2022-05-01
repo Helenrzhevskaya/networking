@@ -7,7 +7,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 import java.io.IOException;
-
+//дз 6.
 import static lesson7_2.project.Period.NOW;
 
 public class AccuweatherModel implements WeatherModel{
