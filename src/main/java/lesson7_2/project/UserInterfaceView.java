@@ -19,7 +19,7 @@ public class UserInterfaceView {
 
             String command = scanner.nextLine();
 
-            //TODO* сделать метод валидации для пользовательского ввод
+            //TODO* сделать метод валидации для пользовательского ввод/для дз7..
 
             if("0".equals(command)) break;
 

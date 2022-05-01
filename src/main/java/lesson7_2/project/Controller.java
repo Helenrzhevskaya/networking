@@ -23,7 +23,7 @@ public class Controller {
 
             case FIVE_DAYS:
                 throw new IOException("метод не реализован");
-                //weatherModel.getWeather(selectedCity, Period.FAVE_DAYS);
+                //weatherModel.getWeather(selectedCity, Period.FAVE_DAYS);...
 
         }
 
