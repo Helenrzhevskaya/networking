@@ -1,4 +1,6 @@
-package lesson7_2.project;
+package homework8.project.project;
+
+import lesson7_2.project.Controller;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -15,11 +17,12 @@ public class UserInterfaceView {
 
             System.out.println(
                     "Введите 5 для получения прогноза на 5 дней; " +
+                            "Введите 2 для получения прогноза из базы данных; " +
                     "Введите 0 для завершения");
 
             String command = scanner.nextLine();
 
-            //TODO* сделать метод валидации для пользовательского ввод/для дз7..!"""ПОД ЗВЕЗДОЧКОЙ
+            //TODO* сделать метод валидации для пользовательского ввод/для дз7..
 
             if("0".equals(command)) break;
 

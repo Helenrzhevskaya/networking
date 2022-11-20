@@ -1,5 +1,7 @@
 package lesson7_2.project;
 
+import homework8.project.project.Period;
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -19,11 +21,12 @@ public class Controller {
         switch (variants.get(userIntegerInput)) {
             case NOW:
                 weatherModel.getWeather(selectedCity, Period.NOW);
+                //throw new IOException("не буду показывать погоду на один день");
                 break;
 
             case FIVE_DAYS:
-                throw new IOException("метод не реализован");
-                //weatherModel.getWeather(selectedCity, Period.FAVE_DAYS);...
+                weatherModel.getWeather(selectedCity, Period.FIVE_DAYS);
+                break;
 
         }
 
